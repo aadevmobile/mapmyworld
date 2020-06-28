@@ -18,13 +18,15 @@
      <param name="initial_pose_a" value="-1.5708"/> 
 
      <!-- Overall Filter -->
-     <param name="max_particles" value="1000" />
+     <param name="max_particles" value="1500" />
      <param name="update_min_d" value="0.2" />
      <param name="update_min_a" value="0.2" />
-     <param name="transform_tolerance" value="0.2" />
+     <param name="transform_tolerance" value="0.7" />
      
      <!-- Laser -->
+
      <!-- Odometry -->
+     <param name="odom_model_type" value="diff-corrected" />
 
    </node>
 
